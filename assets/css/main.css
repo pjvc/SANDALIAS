@@ -1,0 +1,76 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    padding-left: 5em;
+    height: 8em;
+}
+
+h1{
+    width: 5em;
+    padding-top: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    height: 2.5em;
+    color: white;
+    display: inline-block;
+}
+.img1{
+    height: 75%;
+    float: right;
+    padding-top: 1em;
+    padding-right: 10em;
+}
+.img2{
+    height: 75%;
+    width: 75%;
+    margin-left: 2.5em;
+    margin-top: 1em;
+}
+.contenedor{
+    height: 120em;
+    background-color: white;
+}
+
+.tipos{
+    text-align: center;
+    background-color: antiquewhite;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tip{
+    font-size: 20px;
+    padding-right: 5em;
+    padding-left: 5em;
+}
+
+.icono1{
+    height: 20em;
+    width: 20em;
+    background-color: antiquewhite;
+    margin-top: 2em;
+    margin-left: 2em;
+    border-radius: 10%;
+    padding-bottom: 5em;
+    font-size: 1em;
+}
+.titulos{
+    font-size: 2em;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.1em;
+    margin-left: 1em;
+}
+p{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+
+
