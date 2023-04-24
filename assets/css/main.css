@@ -5,7 +5,7 @@ html{
 header{
     background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
     padding-left: 5em;
@@ -13,13 +13,26 @@ background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+
 }
 
 h1{
-    width: 5em;
+    width: 75%;
     padding-top: 0.5em;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    height: 2.5em;
+    height: 0.5em;
     color: white;
     display: inline-block;
+    
+
+}
+h2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:white;
+    border-bottom: blue solid 2px;
+    display: inline-block;
+    width: 75%;
+
+
 }
 .img1{
     height: 75%;
@@ -32,10 +45,18 @@ h1{
     width: 75%;
     margin-left: 2.5em;
     margin-top: 1em;
+    display: inline-block;
 }
+
 .contenedor{
     height: 120em;
     background-color: white;
+}
+.contenido{
+    height: 500em;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .tipos{
@@ -56,21 +77,34 @@ h1{
     width: 20em;
     background-color: antiquewhite;
     margin-top: 2em;
-    margin-left: 2em;
+    margin-left: 5em;
     border-radius: 10%;
     padding-bottom: 5em;
     font-size: 1em;
+    display: inline-block;
+    box-shadow: 0 3px 6px #000;
 }
+
+    
+
 .titulos{
     font-size: 2em;
     display: flex;
     justify-content: flex-start;
     margin-top: 0.1em;
     margin-left: 1em;
+    margin-bottom: 0.1em;
 }
 p{
     font-family: 'Montserrat', sans-serif;;
 }
+.precios{
+    font-weight: 700;
+    margin-left: 1em;
+    margin-top: 0.1em;
+    font-size: 2em;
+}
 
-
-
+.container {
+    display: flex;
+}
