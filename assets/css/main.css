@@ -4,7 +4,6 @@ html{
 
 header{
     background-color: #F3F3F3;
-    height: 10em;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
