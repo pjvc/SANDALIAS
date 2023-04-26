@@ -2,12 +2,17 @@ html{
     font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
 header{
     background-color: #F3F3F3;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 1rem;
+    
 }
 
 .header-title {
@@ -42,8 +47,6 @@ h2{
 .img2{
     height: 75%;
     width: 75%;
-    margin-left: 2.5em;
-    margin-top: 1em;
     display: inline-block;
 }
 
@@ -70,17 +73,21 @@ h2{
 }
 
 .icono1{
-    height: 20em;
-    width: 20em;
+/*     height: 20em;
+    width: 20em; */
     background-color: #F3F3F3;
-    margin-top: 2em;
-    margin-left: 7em;
+/*     margin-top: 2em;
+    margin-left: 7em; */
     border-radius: 5%;
-    padding-bottom: 5em;
+    /* padding-bottom: 5em; */
     font-size: 0.7em;
     display: inline-block;
     box-shadow: 0 3px 6px #000;
     transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
 }
 .icono1:hover{
     transform: scale(1.25);
@@ -90,11 +97,7 @@ h2{
 
 .titulos{
     font-size: 2em;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 0.1em;
-    margin-left: 1em;
-    margin-bottom: 0.1em;
+    text-align: center;
 }
 p{
     font-family: 'Montserrat', sans-serif;;
@@ -109,6 +112,11 @@ p{
 .container1, .container2 {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
+    margin: 1rem 0;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (min-width:720px){
