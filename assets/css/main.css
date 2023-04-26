@@ -3,11 +3,8 @@ html{
 }
 
 header{
-    background: #7F7FD5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+    background-color: #F3F3F3;
+    
     padding-left: 5em;
     height: 8em;
 }
@@ -18,7 +15,6 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     height: 0.5em;
-    color: white;
     display: inline-block;
     
 
@@ -27,8 +23,6 @@ h2{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    color:white;
-    border-bottom: blue solid 2px;
     display: inline-block;
     width: 75%;
 
@@ -54,9 +48,7 @@ h2{
 }
 .contenido{
     height: 500em;
-    background: #7F7FD5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: white;
 }
 
 .tipos{
@@ -75,14 +67,18 @@ h2{
 .icono1{
     height: 20em;
     width: 20em;
-    background-color: antiquewhite;
+    background-color: #F3F3F3;
     margin-top: 2em;
-    margin-left: 5em;
-    border-radius: 10%;
+    margin-left: 7em;
+    border-radius: 5%;
     padding-bottom: 5em;
-    font-size: 1em;
+    font-size: 0.7em;
     display: inline-block;
     box-shadow: 0 3px 6px #000;
+    transition: all 0.5s;
+}
+.icono1:hover{
+    transform: scale(1.25);
 }
 
     
@@ -105,6 +101,9 @@ p{
     font-size: 2em;
 }
 
-.container {
+.container1 {
     display: flex;
+}
+.container2{
+    display:flex;
 }
