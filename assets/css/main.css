@@ -12,6 +12,7 @@ header{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 25%;
     
 }
 .links a{
@@ -68,13 +69,14 @@ h1{
 }
 h2{
     font-size: 20px;
+    background-color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     display: inline-block;
     width: 100%;
-    height: 2.5em;
     justify-content: center;
     text-align: center;
+    
     
 }
 
@@ -105,6 +107,7 @@ h2{
     background-color: antiquewhite;
     font-weight: 100;
     font-family: 'Montserrat', sans-serif;
+    display: none;
 }
 
 .tip{
