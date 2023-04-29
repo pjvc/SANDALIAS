@@ -38,7 +38,7 @@ header{
     display: none;
     background-color: white;
     position: absolute;
-    margin-top: 5em;
+    margin-top: 2em;
     width: 100%;
     background-color:  antiquewhite;
 }
@@ -57,7 +57,7 @@ header{
 .desplegable{
     display: flex;
 }
-.desplegable:hover .links{
+.presionar:hover .links{
     display: block;
     
 }
@@ -122,11 +122,9 @@ h2{
     background-color: #F3F3F3;
 /*     margin-top: 2em;
     margin-left: 7em; */
-    border-radius: 5%;
     /* padding-bottom: 5em; */
     font-size: 0.7em;
     display: inline-block;
-    box-shadow: 0 3px 6px #000;
     transition: all 0.5s;
     display: flex;
     flex-direction: column;
@@ -161,6 +159,35 @@ p{
     font-size: 1em;
     justify-content: center;
     align-items: center;
+}
+.sup{
+    position: absolute;
+}
+.icono2{
+    width: 95%;
+    height: 12em;
+}
+.img3{
+    height: 100%;
+    width: 100%;
+}
+.im4{
+    height: 100%;
+    width: 50%;    
+}
+.im5{
+    height: 100%;
+    width: 50%;
+    padding-right: 2em;
+    padding-left: 2em;    
+}
+
+.icono3{
+    display: flex;
+    align-items: center;
+    height: 13em;
+    width: 95%;
+    
 }
 
 @media screen and (min-width:720px){
