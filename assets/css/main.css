@@ -14,36 +14,77 @@ header{
     justify-content: center;
     
 }
+.links a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    width: 100%;
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em ;
+}
+.link-style{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.apuntador{
+    font-size: 1em;
+    font-weight: 700;
+}
+.links{
+    display: none;
+    background-color: white;
+    position: absolute;
+    margin-top: 5em;
+    width: 100%;
+    background-color:  antiquewhite;
+}
+
 
 .header-title {
     width: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
+.depl{
+    display: flex;
+}
+.desplegable{
+    display: flex;
+}
+.desplegable:hover .links{
+    display: block;
+    
+}
 h1{
     width: 5.5em;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-   
+    
 }
 h2{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     display: inline-block;
-    width: 45%;
+    width: 100%;
     height: 2.5em;
     justify-content: center;
     text-align: center;
     
 }
+
 .img1{
-    height: 6em;
+    height: 3em;
     margin-top: 1em;
-    width: 6em;
+    width: 5em;
+    padding-right: 1em;
 }
+
 .img2{
     height: 75%;
     width: 75%;
