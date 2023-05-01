@@ -181,15 +181,38 @@ p{
     padding-right: 2em;
     padding-left: 2em;    
 }
+.im6{
+    height: 80%;
+    width: 100%;
+}
 
 .icono3{
     display: flex;
     align-items: center;
-    height: 13em;
+    height: 13.5em;
     width: 95%;
-    
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 
+.acomodar{
+    height: 100%;
+    text-align: center;
+    width: 45%;
+    background-color: #F3F3F3;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    align-items: flex-start;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
 @media screen and (min-width:720px){
     .container1, .container2 {
         flex-direction: row;
