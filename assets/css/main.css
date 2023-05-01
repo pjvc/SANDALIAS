@@ -182,14 +182,13 @@ p{
     padding-left: 2em;    
 }
 .im6{
-    height: 80%;
+    height: 11.5em;
     width: 100%;
 }
 
 .icono3{
     display: flex;
     align-items: center;
-    height: 13.5em;
     width: 95%;
     justify-content: space-around;
 }
@@ -199,20 +198,47 @@ a{
 }
 
 .acomodar{
-    height: 100%;
     text-align: center;
     width: 45%;
     background-color: #F3F3F3;
 }
 .descripcion{
-    display: flex;
-    flex-direction: column;
     height: 20%;
-    align-items: flex-start;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-
 }
+.descripcion2{
+    height: 20%;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em; 
+    text-align: left;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+}
+
+.recomendar1{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    border: #F3F3F3 1px solid;
+    color: white;
+    padding: 0.5em;
+}
+.recomendar2{
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F3F3F3;
+    padding-bottom: 3em;
+    
+}
+.acomodar > div{
+    background-color:white;
+}
+
 @media screen and (min-width:720px){
     .container1, .container2 {
         flex-direction: row;
