@@ -269,3 +269,12 @@ a{
         flex-direction: row;
     }
 }
+
+@media screen and (min-height: 650px){
+    .redes{
+        height: 31em; 
+    }
+    .wsp{
+        width: 16%;
+    }
+}
