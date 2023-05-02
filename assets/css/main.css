@@ -241,23 +241,22 @@ a{
     box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
 
 }
-.wats > img{
-    height: 4em;
-    width: 4em;
-    
-}
+
+
 .redes{
     position: fixed;
-    height: 25em;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
+
 }
 .wsp{
-    width: 14%;
-    height: 14%;
-
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    padding: 0 0.5rem 0.5rem 0
 }
 .imgred{
     width: 100%;
@@ -267,14 +266,5 @@ a{
 @media screen and (min-width:720px){
     .container1, .container2 {
         flex-direction: row;
-    }
-}
-
-@media screen and (min-height: 650px){
-    .redes{
-        height: 31em; 
-    }
-    .wsp{
-        width: 16%;
     }
 }
