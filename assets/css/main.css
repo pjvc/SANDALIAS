@@ -263,7 +263,17 @@ a{
     width: 100%;
     height: 100%;
 }
-
+.bannerfin{
+    background-color: #FA5E14;
+    color: black;
+    width: 100%;
+    text-align: center;
+    height: 1.5em;
+    padding-top: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
 @media screen and (min-width:720px){
     .container1, .container2 {
         flex-direction: row;
