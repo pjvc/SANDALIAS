@@ -1,5 +1,5 @@
 html{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 body {
@@ -87,6 +87,19 @@ h2{
     width: 5em;
     padding-right: 1em;
 }
+.imgboton{
+    height: 3em;
+    margin-top: 1em;
+    width: 5em;
+    padding-right: 1em;
+}
+
+.imglogo{
+    height: 3em;
+    margin-top: 1em;
+    width: 5em;
+    padding-right: 1em;
+}
 
 .img2{
     height: 75%;
@@ -95,11 +108,11 @@ h2{
 }
 
 .contenedor{
-    /* height: 120em; */
+    
     background-color: white;
 }
 .contenido{
-    /* height: 500em; */
+    /*height: 500em;*/ 
     background-color: white;
     padding-bottom: 5em;
 }
@@ -272,13 +285,41 @@ a{
     padding: 0.5em;
 }
 .recomendar2{
+    font-size: 'Montserrat', sans-serif;
+    height: 400px;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+.playa-zapa{
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.contenedor-playa{
+    margin: auto;
+    height: 75%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+.cont-playa{
+    background-color: white;
+    padding-bottom: 0.5em;
+}
+.im-playa{
+    width: 100%;
+    height: 80%;
+}
+.recomendar3{
     width: 90%;
     font-family: 'Montserrat', sans-serif;
     background-color: #F3F3F3;
     padding-bottom: 2em;
 }
-
-
 
 .redes{
     position: fixed;
@@ -363,8 +404,156 @@ a{
 .slider_btn-left{
     left:10px;
 }
+.playa{
+    font-size: 1.3em;
+    padding-bottom: 1em;
+    font-weight: 700;   
+    padding-top: 1em;
+}
+.precio{
+    margin-top: 0.5em;
+    font-style: italic;
+}
+.escolartitulo{
+    font-size: 1.3em;
+    padding-bottom: 1em;
+    font-weight: 700; 
+    font-style: italic; 
+    padding-top: 1em;
+    margin-left: 0.8rem;
+}
+.precio-escolar{
+    font-weight: 700;
+    padding-top: 0.5em;
+}
+.titulo-playa{
+    font-size: 0.9em;
+
+}
+.cont-playa-add{
+    display:none;
+}
 @media screen and (min-width:720px){
+    
+   
     .container1, .container2 {
         flex-direction: row;
+        display:block;
     }
-}
+    .imgboton{
+        display:none;
+    }
+    .imglogo{
+        margin-right: 5em;
+    }
+    h1{
+        font-size: 2.3em;
+    }
+    .Title{
+        height: 65px;
+    }
+    .header-title{
+        justify-content: start;
+        padding-bottom: 15px;
+    }
+    h2{
+        display:none
+    }
+    .tipos{
+        display: block;
+    }
+   .container-slider{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    max-width:100% ;
+    width: 90%;
+    height: 100%;
+
+   }
+   .slider{
+        height: 100%;
+        width: 400%;
+   }
+   
+   .slider_img{
+        height: 400px;
+    }
+    .icono2{
+        max-width: 100%;
+        height: 20em;
+        margin: auto;
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    .icono3{
+        max-width: 100%;
+        margin: auto;
+        height: 25em;
+        width: 95%;
+        margin-bottom: 2rem;
+    }
+    .recomendar2{
+        font-size: 'Montserrat', sans-serif;
+        height: 37.5em;
+        margin: auto;
+        max-width: 100%;
+        width: 90%;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        background-color: #F3F3F3;
+        flex-direction: column;
+
+    }
+   
+    .playa-zapa{
+        width: 100%;
+        font-size: 1.5em;
+        height: 8%;
+        margin: 0.2em 0 0 2em;
+        font-weight: bold;
+        margin-top: 2rem;
+        
+    }
+    .contenedor-playa{
+        margin: auto;
+        width: 93%;
+        height: 80%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+        
+    }
+    .cont-playa{
+        width: 30%;
+        height: 100%;
+        background-color: white;
+    }
+    .cont-playa-add{
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        display: block;
+    }
+    .im-playa{
+        height: 85%;
+        width: 100%;
+
+    }
+    .titulo-playa{
+        margin-left: 0.313em;
+        font-size: 1.563em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .precio{
+        
+        font-size: 1.563em;
+        margin-left: 0.313em;
+    }
+
+    
+} 
+    
+
+    
