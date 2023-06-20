@@ -66,6 +66,9 @@ h1{
     width: 5.5em;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic; 
+    font-size: 1.8em;
+    margin-left: 0.3em;
+    margin-top: 0.8em;
 }
 .svg-logo{
     margin-right: 1em;
@@ -464,6 +467,14 @@ a{
     }
     .tipos{
         display: block;
+        
+    }
+    .tip{
+        border-right: solid 3px #F3F3F3;
+        margin: 0 0 0 0 ;
+    }
+    .tip.tip1{
+        border-left: solid 3px #F3F3F3;
     }
    .container-slider{
     margin-top: 1em;
@@ -554,6 +565,7 @@ a{
         font-size: 1.563em;
         margin-left: 0.313em;
     }
+
 
     
 } 
