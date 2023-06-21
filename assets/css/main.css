@@ -451,10 +451,11 @@ a{
 .anuncio{
     width: 100%;
     text-align: center;
-    background-color: black;
-    color: white;
+    border: none;
+    border-top: solid 2px black;
+    color: black;
     padding: 0.5em 0;
-    margin: 2rem 0;
+    margin: 1rem 0;
     font-size: 1.4rem;
     font-style: italic;
 }
@@ -625,13 +626,13 @@ a{
         background-color: white;
     }
     .anuncio{
-        background-color: black;
-        color: white;
+        color: black;
         width: 100%;
         text-align: center;
         font-size:2em;
-        padding: 0.5em 0;
         font-style: italic;
+        border: none;
+        border-top: 2px solid black ;
     }
     .escolar-precio{
         display: flex;
