@@ -119,7 +119,6 @@ h2{
 .contenido{
     /*height: 500em;*/ 
     background-color: white;
-    padding-bottom: 5em;
 }
 
 .tipos{
@@ -297,7 +296,13 @@ a{
     width: 100%;
     background-color: #F3F3F3;
 }
-.playa-zapa{
+.recomendar2.escolares{
+    height: 43.10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recomendar2 {
     width: 95%;
     margin: auto;
     margin-top: 1rem;
@@ -438,6 +443,49 @@ a{
 .cont-playa-add{
     display:none;
 }
+.cont-escolar{
+    width: 95%;
+    height: 40%;
+    background-color: white;
+}
+.anuncio{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0.5em 0;
+    margin: 2rem 0;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+.escolar-precio{
+    width: 95%;
+    height: 38%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.sub-escolar{
+    width: 50%;
+    height: 90%;
+    background-color: white;
+}
+.im-escolar{
+    height: 100%;
+    width: 100%;
+}
+.im-escolar2{
+    height: 70%;
+    width: 100%;
+}
+.playa-zapa{
+    width: 100%;
+    font-size: 1.3em;
+    margin: 1rem 0 1rem 0.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 @media screen and (min-width:720px){
     
    
@@ -519,11 +567,17 @@ a{
         flex-direction: column;
 
     }
+    .recomendar2.escolares{
+        height: 1200px;
+        align-items: center;
+        gap: 1em;
+
+    }
    
     .playa-zapa{
         width: 100%;
         font-size: 1.5em;
-        height: 8%;
+        height: 6%;
         margin: 0.2em 0 0 2em;
         font-weight: bold;
         margin-top: 2rem;
@@ -565,10 +619,44 @@ a{
         font-size: 1.563em;
         margin-left: 0.313em;
     }
+    .cont-escolar{
+        height: 40%;
+        width: 75%;
+        background-color: white;
+    }
+    .anuncio{
+        background-color: black;
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size:2em;
+        padding: 0.5em 0;
+        font-style: italic;
+    }
+    .escolar-precio{
+        display: flex;
+        height: 35%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 5em;
+    }
 
-
-    
-} 
+    .sub-escolar{
+        width: 30%;
+        height: 95%;
+        background-color: white;
+    }
+    .im-escolar{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .im-escolar2{
+        height: 80%;
+        width: 100%;
+    }
+}
     
 
     
