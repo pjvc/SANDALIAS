@@ -127,12 +127,17 @@ h2{
     font-weight: 100;
     font-family: 'Montserrat', sans-serif;
     display: none;
+    width: 100%;
+    height: 100%;
 }
 
 .tip{
     font-size: 20px;
     padding-right: 5em;
     padding-left: 5em;
+}
+.tip:hover{
+    border: 2px solid #48D1CC;
 }
 
 .icono1{
@@ -295,6 +300,7 @@ a{
     max-width: 100%;
     width: 100%;
     background-color: #F3F3F3;
+    border: 1px solid #DCDCDC
 }
 .recomendar2.escolares{
     height: 43.10em;
@@ -319,6 +325,7 @@ a{
 .cont-playa{
     background-color: white;
     padding-bottom: 0.5em;
+    border: 1px solid #DCDCDC;
 }
 .im-playa{
     width: 100%;
@@ -351,22 +358,24 @@ a{
     height: 100%;
 }
 .bannerfin{
-    background-color: #FA5E14;
+    background-color: #FF7F4E;
     color: black;
     width: 100%;
     text-align: center;
-    height: 1.5em;
-    padding-top: 0.5em;
+    height: 1.9em;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container-slider{
     width: 90%;
     max-width: 900px;
     margin: auto;
     /*overflow: hidden;*/
-    border: #FAEBD7 8px solid;
+    border: #FFDEAD 2px solid;
     position: relative;
     overflow: hidden;
     margin-top: 1em;
@@ -442,6 +451,8 @@ a{
 }
 .cont-playa-add{
     display:none;
+    border: 1px solid #DCDCDC;
+    padding-bottom:0.5em;
 }
 .cont-escolar{
     width: 95%;
@@ -470,7 +481,10 @@ a{
     width: 50%;
     height: 90%;
     background-color: white;
+    border: 1px solid #DCDCDC;
+    padding-bottom: 0.5em;
 }
+
 .im-escolar{
     height: 100%;
     width: 100%;
@@ -514,10 +528,35 @@ a{
     h2{
         display:none
     }
-    .tipos{
-        display: block;
+    .content-link{
+        width: 100%;
+        background-color: #F3F3F3;
+        height: 1.5em;
+        display: flex;
+        font-family: 'Montserrat', sans-serif;;
+        font-size: 1.2rem;
+    }
+    .tipo{
+        background-color: antiquewhite;
+        height: 100%;
+        width: 33%;
+        margin:auto;
+        text-align: center;
+    }
+    .tipo:hover{
+        background-color: #FFE4C4;
         
     }
+    .enlazar:hover{
+        color:black;
+    }
+    .enlazar{
+        width: 100%;
+        height: 100%;
+        margin-top: 0.1em;
+    }
+        
+    
     .tip{
         border-right: solid 3px #F3F3F3;
         margin: 0 0 0 0 ;
@@ -556,7 +595,7 @@ a{
         margin-bottom: 2rem;
     }
     .recomendar2{
-        font-size: 'Montserrat', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         height: 37.5em;
         margin: auto;
         max-width: 100%;
@@ -566,6 +605,7 @@ a{
         display: flex;
         background-color: #F3F3F3;
         flex-direction: column;
+        border: 1px solid #DCDCDC
 
     }
     .recomendar2.escolares{
@@ -598,12 +638,15 @@ a{
         width: 30%;
         height: 100%;
         background-color: white;
+        border: 1px solid #DCDCDC;
     }
     .cont-playa-add{
         width: 30%;
         height: 100%;
         background-color: white;
         display: block;
+        border: 1px solid #DCDCDC;
+        padding-bottom: 0.5em;
     }
     .im-playa{
         height: 85%;
@@ -647,7 +690,10 @@ a{
         width: 30%;
         height: 95%;
         background-color: white;
-    }
+        border: 1px solid #DCDCDC;
+    padding-bottom: 0.5em;
+}
+    
     .im-escolar{
         width: 100%;
         height: 100%;
@@ -657,6 +703,7 @@ a{
         height: 80%;
         width: 100%;
     }
+    
 }
     
 
