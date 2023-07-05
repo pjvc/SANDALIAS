@@ -707,37 +707,89 @@ a{
         width: 100%;
     }
     .ventas{
-        height: 130em;
+        height: 150em;
         width: 100%;
-        background-color: red;
+        
         display: flex;
         gap: 1em;
-        padding-top: 8em;
+        padding-top: 10em;
     }
     .contenedor-buscar{
         width: 25%;
         height: 100%;
         background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .contenedor-ventas{
         width: 74%;
         height: 100%;
-        background-color: white;
+        background-color: white
+
     }
     .lista-contacto{
         height: 15.7%;
-        border: solid 2px black;
         display: flex;
         list-style: none;
         padding: 0;
-        grid-gap:1em ;
+        grid-gap:3em ;
+        margin-bottom: 3em;
     }
     .sandalias-ventas{
-        border: solid 2px red ;
-        width: 33%;
-        
+        border: solid 2px #F3F3F3 ;
+        width: 28%;
+        background-color: white;
+        margin-left: 6px;
+    }
+    .cont-image{
+        height: 100%;
+        width: 100%;
+        border: 1px solid #DCDCDC;
+       
+    }
+    .img-venta{
+        height: 85%;
+        width: 100%;
+    }
+    .cont-venta{
+        height: 14%;
+        width: 100%;
+        color: black;
+        display: flex;
+        flex-direction: column;
         
     }
+   .cont-venta>p{
+        margin: 2px 0 0 1em;
+        font-size: 18px;
+   }
+   .precio-sandalia{
+        color:red;
+        font-style: italic;
+    }
+    .cont-image:hover{
+        box-shadow:  0 0 15px 5px #00FAC2;
+    }
+    .opciones{
+        height: 95%;
+        width: 95%;
+        display: flex;
+        flex-direction: column
+    }
+    .boton-buscar{
+        border: solid 2px #DCDCDC;
+        margin-left: 2em;
+        border: white;
+    }
+    
+    .label-buscar{
+        border-bottom: 2px solid black;
+        margin-bottom: 1em;
+        height: 2em;
+    }
+
+   
    
 }
     
