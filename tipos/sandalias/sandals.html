@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html leng="es">
+<html lang="es">
     <head>
         <title>Sandalias</title>
         <meta charset="UTF-8">
@@ -122,17 +122,31 @@
         <main>
             <section class="ventas">
                 <div class="contenedor-buscar">
-                    <div class="opciones">
-                        <label for="" class="label-buscar">Buscar:
-                        <input type="text"  class="boton-buscar">
+                    <div class="opciones" >
+                        <label for="" class="label-buscar" >
+                        <input type="text"  class="boton-buscar" placeholder="Buscar">
                         </label>
-                        <label for="" class="label-buscar">Talla</label>
-                        <label for="" class="label-buscar">Precio</label>
-                        <label for="" class="label-buscar">Color</label>
+                        <label for="" class="label-buscar">
+                            <select name="" id="" class="seleccionar-precio">
+                                <option value="0">
+                                    Precio
+                                </option>
+                                <option value="1">
+                                    Menor a 10$
+                                </option>
+                                <option value="2">
+                                    Menor a 15$
+                                </option>
+                                <option value="3">
+                                    Menor a 25$
+                                </option>
+                            </select>
+                        </label>
+                        
                     </div>                    
                 </div>
                 <div class="contenedor-ventas">
-                    <ul class="lista-contacto">
+                    <ul class="lista-contacto lista-primera">
                         <li class="sandalias-ventas">
                             <a href="" class="">
                                 <div class="cont-image">
@@ -307,7 +321,7 @@
                             </a>
                         </li>
                     </ul>
-                    <ul class="lista-contacto">
+                    <ul class="lista-contacto lista-final">
                         <li class="sandalias-ventas">
                             <a href="" class="enlace-venta">
                                 <div class="cont-image">
@@ -346,6 +360,6 @@
                 </div>
             </section>
         </main>
-
+        <script src="../../javascript/"></script>
     </body>
 </html>

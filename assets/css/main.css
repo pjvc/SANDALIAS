@@ -140,7 +140,7 @@ h2{
     padding-left: 5em;
 }
 .tip:hover{
-    border: 2px solid #48D1CC;
+    border: 2px solid #3250EB;
 }
 
 .icono1{
@@ -503,7 +503,9 @@ a{
     font-weight: bold;
     text-transform: uppercase;
 }
-
+.content-link{
+    display: none
+}
 @media screen and (min-width:720px){
     
    
@@ -712,7 +714,7 @@ a{
         
         display: flex;
         gap: 1em;
-        padding-top: 10em;
+        padding-top: 8em;
     }
     .contenedor-buscar{
         width: 25%;
@@ -725,7 +727,11 @@ a{
     .contenedor-ventas{
         width: 74%;
         height: 100%;
-        background-color: white
+        background-color: #B00726;
+        padding-bottom: 15em;
+        padding-left: 2em;
+        padding-top: 4em;
+
 
     }
     .lista-contacto{
@@ -769,7 +775,13 @@ a{
         font-style: italic;
     }
     .cont-image:hover{
-        box-shadow:  0 0 15px 5px #00FAC2;
+        color: white;
+        transition: all 0.5s ;
+        background-color: #FF001A;
+    
+    }
+    .cont-image:hover  p{
+        color: white;
     }
     .opciones{
         height: 95%;
@@ -778,17 +790,36 @@ a{
         flex-direction: column
     }
     .boton-buscar{
-        border: solid 2px #DCDCDC;
-        margin-left: 2em;
-        border: white;
+        width: 100%;
+        height: 100%;
+        border:none;
+        outline: none;
+        border-bottom: 1px solid black ;
+        font-size: 20px;
+        color: black;
+
     }
     
     .label-buscar{
-        border-bottom: 2px solid black;
+        border-bottom: 1px solid black;
         margin-bottom: 1em;
         height: 2em;
+        width: 17em;
+        margin-bottom: 2em;
     }
-
+    .seleccionar-precio{
+        border:none;
+        height: 100%;
+        width: 100%;
+        outline: none;
+        font-size: 20px;
+        padding: 0px 0px 0px 0px ;
+    }
+    .seleccionar-precio::after{
+        content: '\25BC';
+        position: absolute;
+    }
+   
    
    
 }
