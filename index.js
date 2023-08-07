@@ -19,6 +19,7 @@ function saludar(){
 var productos = document.querySelector("div.contenedor-ventas")
 var precio = document.querySelectorAll("p.precio-sandalia")
 var seleccionar_precio = document.getElementById('seleccionar_precio')
+var seleccionar_precio_cel = document.getElementById('seleccionar_precio_cel')
 
 seleccionar_precio.addEventListener('change', (event)=>{
     if("10" == seleccionar_precio.value){
@@ -58,3 +59,40 @@ seleccionar_precio.addEventListener('change', (event)=>{
 
 })
 
+seleccionar_precio_cel.addEventListener('change', (event)=>{
+    if("10" == seleccionar_precio_cel.value){
+        listas.forEach(elemento=>{
+           elemento.classList.remove("filtro")
+           var recorrido = elemento.textContent.match(/\d+/g)
+           if(recorrido > 10){
+            elemento.classList.add("filtro")
+           }
+           
+        })
+    }  
+    else if("15"==seleccionar_precio_cel.value){
+        listas.forEach(elemento=>{
+            elemento.classList.remove("filtro")
+            var recorrido = elemento.textContent.match(/\d+/g)
+            if(recorrido > 15){
+             elemento.classList.add("filtro")
+            }
+            
+         })
+    }
+    else if("25"==seleccionar_precio_cel.value) {
+        listas.forEach(elemento=>{
+            elemento.classList.remove("filtro")
+            var recorrido = elemento.textContent.match(/\d+/g)
+            if(recorrido > 25){
+             elemento.classList.add("filtro")
+            }
+         })
+    }
+    else{
+        listas.forEach(elemento=>{
+            elemento.classList.remove("filtro")
+        })
+    }
+
+})

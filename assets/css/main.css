@@ -517,7 +517,7 @@ a{
 }
 .contenedor-ventas{
     background-color: #B00726;
-    height:  389em; 
+    height:  403em; 
     width: 100%;
     padding-top: 2em
 
@@ -566,7 +566,7 @@ a{
     margin-bottom: 1em;
     height: 2em;
     width: 17em;
-    margin: 13px 0 16px 0;
+    margin: 30px 0 16px 0;
 }
 .seleccionar-precio{
     border:none;
@@ -811,13 +811,13 @@ select option{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 19em;
+        padding-bottom: 27em;
     }
     .contenedor-ventas{
         width: 74%;
         height: 100%;
         background-color: #B00726;
-        padding-bottom: 15em;
+        padding-bottom: 23em;
         padding-left: 2em;
         padding-top: 4em;
 
@@ -922,7 +922,7 @@ select option{
    }
    .div_buscar{
     display: none;
-    
+
    }
    
 }
