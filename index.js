@@ -1,4 +1,19 @@
-console.log("Hola mundo")
+var comprar = document.querySelectorAll('li.sandalias-ventas')
+    comprar.forEach(enlace =>{
+        enlace.addEventListener('click', function realizar(event){
+           event.preventDefault()
+           const imagenURL = event.target.closest("a").querySelector("img").src;
+           const imagenAlt = event.target.alt;
+           localStorage.setItem("imagenURL", imagenURL);
+           localStorage.setItem("imagenAlt", imagenAlt);
+           const texto_titulo = event.target.closest("a").querySelector("p.descripcion_sandalia").textContent
+           const texto_precio = event.target.closest("a").querySelector("p.precio-sandalia").textContent
+           localStorage.setItem("texto_titulo",texto_titulo)
+           localStorage.setItem("texto_precio", texto_precio)
+           window.location.href = "./comprar.html"
+        })
+})
+
 
 document.addEventListener("keyup", e=>{
     if(e.target.matches("#buscador")){
@@ -96,3 +111,5 @@ seleccionar_precio_cel.addEventListener('change', (event)=>{
     }
 
 })
+
+
