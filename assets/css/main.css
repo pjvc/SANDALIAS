@@ -664,7 +664,7 @@ select option.talla{
     display: flex;
     justify-content: center;
     align-items: end;
-    width: 216px;
+    width: 163px;
     height: 59px;;
 }
 
@@ -693,6 +693,7 @@ select option.talla{
     }
     .Title{
         height: 65px;
+        width: 272px;
     }
     .header-title{
         justify-content: start;
@@ -877,17 +878,17 @@ select option.talla{
         width: 100%;
     }
     .ventas{
-        height: 150em;
+        height: 160em;
         width: 100%;
         
         display: flex;
         gap: 0;
-        padding-top: 8em;
+        padding-top: 6em;
     }
     .contenedor-buscar{
         width: 25%;
         height: 100%;
-        background-color: #B00726;
+        background-color: white;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -896,7 +897,7 @@ select option.talla{
     .contenedor-ventas{
         width: 74%;
         height: 100%;
-        background-color: #B00726;
+        background-color: white;
         padding-bottom: 23em;
         padding-left: 2em;
         padding-top: 4em;
@@ -922,7 +923,7 @@ select option.talla{
     .cont-image{
         height: 100%;
         width: 100%;
-        border: 1px solid #DCDCDC;
+       
        
     }
     .img-venta{
