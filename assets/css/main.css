@@ -17,6 +17,7 @@ header{
     position: fixed;
     height: 8em;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .links a{
     text-decoration: none;
@@ -68,9 +69,8 @@ h1{
     width: 5.5em;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic; 
-    font-size: 1.8em;
-    margin-left: 0.3em;
-    margin-top: 0.8em;
+    font-size: 1.4em;
+    margin: 0px 0 0 0px
 }
 .svg-logo{
     margin-right: 1em;
@@ -513,27 +513,33 @@ a{
 
 .ventas{
     padding-top: 6em;
-    height: 120em;
+    padding-bottom: 6em;
 }
 .contenedor-ventas{
-    background-color: #B00726;
-    height:  403em; 
+    background-color: white;
     width: 100%;
-    padding-top: 2em
+    padding-top: 2em;
+    padding-bottom: 150em;
 
 }
 .lista-contacto{
     list-style: none;
     margin-bottom: 5em;
-    width: 80%;
+    width: 100%;
     height: 20em;
+    display: flex;
+    flex-wrap: wrap;
+    padding:  0 0 5em 0;
+    margin: 40px 0 0 0
 }
 
 .sandalias-ventas{
-    width: 80%;
-    height: 98%;
-    margin: 0 0 2em 25px;
-    background-color: white
+    width: 41%;
+    height: 80%;
+    margin: 0 0 4em 27px;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 13px;
 }
 .cont-image{
     width: 100%;
@@ -562,7 +568,7 @@ a{
 }
 
 .label-buscar{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ddd;
     margin-bottom: 1em;
     height: 2em;
     width: 17em;
@@ -576,7 +582,7 @@ a{
     font-size: 20px;
     padding: 0px 0px 0px 0px ;
     background: none;
-    color: white;
+    color: black;
 }
 select option{
     background: #FF001A;
@@ -589,7 +595,7 @@ select option{
     height: 100%;
     border:none;
     outline: none;
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid #ddd ;
     font-size: 20px;
     color: black;
 }
@@ -653,6 +659,20 @@ select option.talla{
 .imagen_comprar{
     width: 100%;
     height: 100%;
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 216px;
+    height: 59px;;
+}
+
+::placeholder{
+    color:black;
+}
+.descripcion_sandalia{
+    font-size: 13px;
 }
 @media screen and (min-width:720px){
     
@@ -946,14 +966,14 @@ select option.talla{
         height: 100%;
         border:none;
         outline: none;
-        border-bottom: 1px solid black ;
+        border-bottom: 1px solid #ddd ;
         font-size: 20px;
         color: black;
 
     }
     
     .label-buscar{
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid #ddd;
         margin-bottom: 1em;
         height: 2em;
         width: 17em;
@@ -968,7 +988,7 @@ select option.talla{
         font-size: 20px;
         padding: 0px 0px 0px 0px ;
         background: none;
-        color: white;
+        color: black;
     }
     .seleccionar-precio::after{
         content: '\25BC';
