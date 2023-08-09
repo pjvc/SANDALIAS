@@ -8,7 +8,7 @@ body {
 }
 
 header{
-    background-color: #F3F3F3;
+    background-color: white;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -95,10 +95,11 @@ h2{
     padding-right: 1em;
 }
 .imgboton{
-    height: 3em;
+    height: 47px;
     margin-top: 1em;
-    width: 5em;
+    width: 40px;
     padding-right: 1em;
+    margin-left: 26px;
 }
 
 .imglogo{
@@ -361,8 +362,8 @@ a{
     height: 100%;
 }
 .bannerfin{
-    background-color: #FF7F4E;
-    color: black;
+    background-color: black;
+    color: white;
     width: 100%;
     text-align: center;
     height: 1.9em;
@@ -370,62 +371,8 @@ a{
     font-size: 1.5em;
     font-weight: 700;
     display: flex;
-    background-color: #B00726;
     justify-content: center;
     align-items: center;
-}
-.container-slider{
-    width: 90%;
-    max-width: 900px;
-    margin: auto;
-    /*overflow: hidden;*/
-    border: #FFDEAD 2px solid;
-    position: relative;
-    overflow: hidden;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-bottom: 2em;
-}
-.slider{
-    display: flex;
-    width: 400%;
-    height: 250px;
-    margin-left: 0%;
-    
-}
-.slider_section{
-    width: 100%;
-}
-.slider_img{
-    display:block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-.slider_btn{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(255,255,255,0.7);
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 30px;
-    font-weight: bold ;
-    font-family: monospace;
-    text-align: center;
-    border-radius: 50%;
-    cursor: pointer;
-
-}
-.slider_btn:hover{
-    background-color: #fff;
-}
-.slider_btn-right{
-    right: 10px;
-}
-.slider_btn-left{
-    left:10px;
 }
 .playa{
     font-size: 1.3em;
@@ -674,9 +621,105 @@ select option.talla{
 .descripcion_sandalia{
     font-size: 13px;
 }
+.container-slider{
+    max-width: 400px;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: relative;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.slider{
+    display: flex;
+    width: 400%;
+    height: 348px;
+    margin-left: -100%;
+}
+.slider_section{
+    width: 100%;
+
+}
+.img_slider{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider_btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.slider_btn_right{
+    right: 10px;
+}
+.slider_btn_left{
+    left: 10px;
+}
 @media screen and (min-width:720px){
-    
+   .container-slider{
+        max-width: 950px;
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        position: relative;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+   .slider{
+        display: flex;
+        width: 400%;
+        height: 550px;
+        margin-left: -100%;
+   }
+   .slider_section{
+        width: 100%;
+
+   }
+   .img_slider{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+   }
    
+   .slider_btn{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(255, 255, 255, 0.7);
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+        font-weight: bold;
+        font-family: monospace;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+   
+   
+   .slider_btn_right{
+        right: 10px;
+   }
+   .slider_btn_left{
+        left: 10px;
+   }
     .container1, .container2 {
         flex-direction: row;
         display:block;
@@ -696,14 +739,14 @@ select option.talla{
         width: 272px;
     }
     .header-title{
-        justify-content: start;
+        justify-content: center;
         padding-bottom: 15px;
     }
     h2{
         display:none
     }
     .content-link{
-        width: 100%;
+        width: 44%;
         background-color: #F3F3F3;
         height: 1.5em;
         display: flex;
@@ -711,14 +754,14 @@ select option.talla{
         font-size: 1.2rem;
     }
     .tipo{
-        background-color: antiquewhite;
+        background-color: white;
         height: 100%;
         width: 33%;
         margin:auto;
         text-align: center;
     }
     .tipo:hover{
-        background-color: #FFE4C4;
+        background-color: #ddd;
         
     }
     .enlazar:hover{
@@ -728,6 +771,7 @@ select option.talla{
         width: 100%;
         height: 100%;
         margin-top: 0.1em;
+        color: black;
     }
         
     
@@ -738,25 +782,9 @@ select option.talla{
     .tip.tip1{
         border-left: solid 3px #F3F3F3;
     }
-   .container-slider{
-    margin-top: 1em;
-    margin-bottom: 2em;
-    max-width:100% ;
-    width: 90%;
-    height: 100%;
-
-   }
-   .slider{
-        height: 100%;
-        width: 400%;
-   }
-   
-   .slider_img{
-        height: 400px;
-    }
     .icono2{
         max-width: 100%;
-        height: 20em;
+        height: 29em;
         margin: auto;
         width: 90%;
         margin-bottom: 2rem;
@@ -765,7 +793,7 @@ select option.talla{
         max-width: 100%;
         margin: auto;
         height: 25em;
-        width: 95%;
+        width: 71%;
         margin-bottom: 2rem;
     }
     .recomendar2{
@@ -929,6 +957,8 @@ select option.talla{
     .img-venta{
         height: 85%;
         width: 100%;
+        border-radius: 10px
+
     }
     .cont-venta{
         height: 14%;
@@ -936,7 +966,6 @@ select option.talla{
         color: black;
         display: flex;
         flex-direction: column;
-        
     }
    .cont-venta>p{
         margin: 2px 0 0 1em;
@@ -1089,6 +1118,7 @@ select option.talla{
         border-bottom: 1px solid #ddd;
         margin-bottom: 15px;
     }
+
+ 
 }
-    
     
