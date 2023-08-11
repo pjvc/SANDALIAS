@@ -53,3 +53,4 @@ var padre_descripcion = document.querySelector('div.container_comprar_descripcio
 
 padre_descripcion.replaceChild(elemento_titulo, cambiar_titulo)
 padre_descripcion.replaceChild(elemento_precio, cambiar_precio)
+

@@ -1,3 +1,15 @@
+var sandalias = document.querySelector('div#sandalias')
+var plataformas = document.querySelector('div#plataformas') 
+var tacones = document.querySelector('div#tacones')
+
+var lista_sandalias =document.querySelector('ul#lista_sandalia')
+var listas_plataformas = document.querySelector('ul#lista_plataforma')
+
+sandalias.addEventListener('click', (event)=>{
+    listas_plataformas.classList.add('filtro_listas')
+    console.log("Hola")
+})
+
 const slider = document.querySelector('div.slider')
 const slider_section = document.querySelectorAll('div.slider_section')
 const slider_section_last = slider_section[slider_section.length - 1];
@@ -40,3 +52,8 @@ btn_left.addEventListener('click', function(){
 setInterval(function(){
     Next();
 },5000);
+
+var sandalias = document.querySelector('div#sandalias')
+var plataformas = document.querySelector('div#plataformas') 
+var tacones = document.querySelector('div#tacones')
+

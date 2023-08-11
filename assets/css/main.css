@@ -21,18 +21,21 @@ header{
 }
 .links a{
     text-decoration: none;
-    color:black;
+    color:white;
     display: block;
-    width: 100%;
+    width: 88%;
     font-size: 1.5em;
     padding-bottom: 0.5em;
     padding-top: 0.5em ;
+    border-bottom:  white 1px solid;
+    
 }
 .link-style{
     display: flex;
     justify-content: space-between;
     margin-left: 1em;
     margin-right: 1em;
+    
 }
 .apuntador{
     font-size: 1em;
@@ -40,11 +43,11 @@ header{
 }
 .links{
     display: none;
-    background-color: white;
+    
     position: absolute;
-    margin-top: 2em;
-    width: 100%;
-    background-color:  antiquewhite;
+    margin-top: 5px;
+    width: 95%;
+    background-color: black;
 }
 
 
@@ -62,8 +65,8 @@ header{
     display: flex;
 }
 .presionar:hover .links{
+    transition: all 5s;
     display: block;
-    
 }
 h1{
     width: 5.5em;
@@ -434,6 +437,7 @@ a{
     background-color: white;
     border: 1px solid #DCDCDC;
     padding-bottom: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .im-escolar{
@@ -531,9 +535,7 @@ a{
     background: none;
     color: black;
 }
-select option{
-    background: #FF001A;
-}
+
 .filtro{
     display: none;
 }
@@ -588,7 +590,8 @@ select option{
     font-size: 20px;
     color: white;
     background-color: #257D19;   
-    padding: 4px 0;
+    padding: 11px 0;
+    border-radius: 8px;
 }
 .button_comprar:hover{
     border: 4px solid white;
@@ -669,6 +672,9 @@ select option.talla{
 }
 .slider_btn_left{
     left: 10px;
+}
+.filtro_listas{
+    display: none;
 }
 @media screen and (min-width:720px){
    .container-slider{
@@ -761,7 +767,8 @@ select option.talla{
         text-align: center;
     }
     .tipo:hover{
-        background-color: #ddd;
+        transition: all 0.5s ;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         
     }
     .enlazar:hover{
@@ -841,6 +848,8 @@ select option.talla{
         height: 100%;
         background-color: white;
         border: 1px solid #DCDCDC;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 12px;
     }
     .cont-playa-add{
         width: 30%;
@@ -849,6 +858,8 @@ select option.talla{
         display: block;
         border: 1px solid #DCDCDC;
         padding-bottom: 0.5em;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 12px;
     }
     .im-playa{
         height: 85%;
@@ -857,11 +868,11 @@ select option.talla{
     }
     .titulo-playa{
         margin-left: 0.313em;
-        font-size: 1.563em;
-        font-family: 'Times New Roman', Times, serif;
+        font-size: 21px;
+        font-family: 'Montserrat', sans-serif;
     }
     .precio{
-        
+        color:green;
         font-size: 1.563em;
         margin-left: 0.313em;
     }
@@ -893,13 +904,16 @@ select option.talla{
         height: 95%;
         background-color: white;
         border: 1px solid #DCDCDC;
-    padding-bottom: 0.5em;
+        padding-bottom: 0.5em;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 12px;
 }
     
     .im-escolar{
         width: 100%;
         height: 100%;
         margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     .im-escolar2{
         height: 80%;
@@ -977,14 +991,11 @@ select option.talla{
         font-weight: 600;
     }
     .cont-image:hover{
-        color: white;
         transition: all 0.5s ;
-        background-color: #FF001A;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
     }
-    .cont-image:hover  p{
-        color: white;
-    }
+   
     .opciones{
         height: 95%;
         width: 95%;
@@ -1027,9 +1038,7 @@ select option.talla{
    .filtro{
         display: none;
    }
-   select option{
-        background: #FF001A;
-   }
+   
    .div_buscar{
         display: none;
    }
@@ -1066,7 +1075,7 @@ select option.talla{
    .contenido_comprar{
         width: 35%;
         height: 26em;
-        border: 2px solid black;
+        object-fit: cover;
    }
    .main_comprar{
     padding-top: 10em;
@@ -1098,13 +1107,14 @@ select option.talla{
     height: 36px;
    }
    .button_comprar{
-    width: 25%;
+    width: 40%;
     border: 1px solid green;
     height: 8%;
     font-size: 20px;
     color: white;
     background-color: #257D19;   
-}
+    cursor: pointer;
+    }
     .button_comprar:hover{
         border: 2px solid white;
     }
@@ -1118,7 +1128,10 @@ select option.talla{
         border-bottom: 1px solid #ddd;
         margin-bottom: 15px;
     }
-
+    .filtro_listas{
+        display: none;
+    }
+    
  
 }
     

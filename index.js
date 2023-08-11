@@ -113,3 +113,63 @@ seleccionar_precio_cel.addEventListener('change', (event)=>{
 })
 
 
+window.addEventListener('DOMContentLoaded', function() {
+    var urlParams = new URLSearchParams(window.location.search);
+    var ulhide = urlParams.get('ulhide');
+    console.log(ulhide)
+    var lista =  document.getElementById(ulhide)
+    if(lista){
+        lista.classList.remove('filtro_listas')
+    }
+})
+var sandalia = document.querySelector('a#lista_sandalia')
+var plataforma = document.querySelector('a#lista_plataforma')
+var tacon = document.querySelector('a#lista_tacon')
+
+var sandalia_cel = document.querySelector('a#sandalia_cel')
+var plataforma_cel = document.querySelector('a#plataforma_cel')
+var tacon_cel = document.querySelector('a#tacon_cel')
+
+
+var lista_sandalia = document.querySelector('ul#sandalia')
+var lista_plataforma = document.querySelector('ul#plataforma')
+var lista_tacon  = document.querySelector('ul#tacon')
+
+sandalia.addEventListener('click', (event)=>{
+    event.preventDefault()
+    lista_sandalia.classList.remove('filtro_listas')
+    lista_plataforma.classList.add('filtro_listas')
+    lista_tacon.classList.add('filtro_listas')
+})
+
+plataforma.addEventListener('click', (event)=>{
+    event.preventDefault()
+    lista_sandalia.classList.add('filtro_listas')
+    lista_plataforma.classList.remove('filtro_listas')
+    lista_tacon.classList.add('filtro_listas')
+})
+
+tacon.addEventListener('click', (event)=>{
+    event.preventDefault()
+    lista_sandalia.classList.add('filtro_listas')
+    lista_plataforma.classList.add('filtro_listas')
+    lista_tacon.classList.remove('filtro_listas')
+})
+sandalia_cel.addEventListener('click', (event)=>{
+    event.preventDefault()
+    lista_sandalia.classList.remove('filtro_listas')
+    lista_plataforma.classList.add('filtro_listas')
+    lista_tacon.classList.add('filtro_listas')
+})
+plataforma_cel.addEventListener('click', (event)=>{
+    event.preventDefault()
+    lista_sandalia.classList.add('filtro_listas')
+    lista_plataforma.classList.remove('filtro_listas')
+    lista_tacon.classList.add('filtro_listas')
+})
+tacon_cel.addEventListener('click', (event)=>{
+    event.preventDefault()
+    lista_sandalia.classList.add('filtro_listas')
+    lista_plataforma.classList.add('filtro_listas')
+    lista_tacon.classList.remove('filtro_listas')
+})
